@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    background-color: azure;
+
+}
+.container{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal{
+    background-color: chocolate;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,25px);
+    gap: 5px;
+}
+button{
+    background-color: black;
+    color:white;
+    border-radius: 80px;
+}
+
+input{
+    grid-column: span 4;
+}
